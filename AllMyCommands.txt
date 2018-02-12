@@ -20,3 +20,7 @@ git commit -m " added README.md to ReadMe branch "
 git checkout master
 git merge ReadMe
 git commit -m " Merge the branch ReadMe into Master"
+git add AllMyCommands.txt
+git commit -m " Added the AllMyCommands.txt file"
+git push origin master
+git push origin ReadMe
