@@ -1,0 +1,22 @@
+git config --global user.name "NadineKhoury50"
+git config --global user.email "nr.khoury50@gmail.com"
+git init
+git add *.txt
+git commit -m "the Three files are now added"
+git status
+git rm -f file2.txt
+git commit -m "Deleted file 2"
+git log 
+git revert d77a599a2d5f69d182e00b2ef7cbd602a20ce076
+git commit -m "after deleting the file, i rolled it back or reverted it by using the command git log which displayed all the commits done so far and i tooke the code or number beside the commit of the delete and i pasted it beside git revert and the fole is now back"
+$ git remote add origin https://github.com/NadineKhoury50/Nado.git
+touch README.md
+vim README.md
+git commit -m "Create a README.md file that contains details about the project, the repo content and the author"
+git checkout -b ReadMe
+git commit -m " Making new branch called ReadMe"
+git add README.md
+git commit -m " added README.md to ReadMe branch "
+git checkout master
+git merge ReadMe
+git commit -m " Merge the branch ReadMe into Master"
